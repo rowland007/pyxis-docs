@@ -1,0 +1,28 @@
+site_name: Pyxis
+site_description: Documentation for the Pyxis app 
+site_author: Randy Rowland
+repo_url: https://github.com/rowland007/Pyxis
+strict: true
+theme: windmill
+
+markdown_extensions:
+  - smarty
+  - attr_list
+  - admonition
+  - toc:
+      permalink: True
+plugins:
+  - search:
+      lang: en
+
+nav:
+  - About: index.md
+  - Pithos:
+    - Overview: https://github.com/pithos/pithos
+  - Pandora API:
+    - Overview: https://6xq.net/pandora-apidoc/
+    - JSON: https://6xq.net/pandora-apidoc/json/
+    - REST: https://6xq.net/pandora-apidoc/rest/
+  - License: license.md
+  - Contribute: contribute.md
+    
